@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge Web Component Demo</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/@linode/design-language-system/dist/tokens.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="badge.css" />
+  </head>
+  <body>
+    <div class="demo-container">
+      <h1>Badge Web Component Demo</h1>
+
+      <div class="demo-section">
+        <h2>Badges</h2>
+        <custom-badge variant="info-subtle">Info Subtle</custom-badge>
+        <custom-badge variant="info-accent">Info Accent</custom-badge>
+        <br />
+        <custom-badge variant="warning-subtle">Warning Subtle</custom-badge>
+        <custom-badge variant="warning-accent">Warning Accent</custom-badge>
+        <br />
+        <custom-badge variant="positive-subtle">Success Subtle</custom-badge>
+        <custom-badge variant="positive-accent">Success Accent</custom-badge>
+        <br />
+        <custom-badge variant="negative-subtle">Negative Subtle</custom-badge>
+        <custom-badge variant="negative-accent">Negative Accent</custom-badge>
+        <br />
+        <custom-badge variant="neutral-subtle">Neutral Subtle</custom-badge>
+        <custom-badge variant="neutral-accent">Neutral Accent</custom-badge>
+        <br />
+        <custom-badge variant="violet-subtle">Violet Subtle</custom-badge>
+        <custom-badge variant="violet-accent">Violet Accent</custom-badge>
+        <br />
+        <custom-badge variant="pink-subtle">Pink Subtle</custom-badge>
+        <custom-badge variant="pink-accent">Pink Accent</custom-badge>
+        <br />
+      </div>
+
+      <div class="demo-section">
+        <h2>With Icons (using Unicode)</h2>
+        <custom-badge variant="positive-subtle">✓ Completed</custom-badge>
+        <custom-badge variant="negative-accent">✗ Failed</custom-badge>
+      </div>
+    </div>
+
+    <script src="badge.js"></script>
+
+    <style>
+      body {
+        font-family: var(--token-global-font-font-family-brand), Roboto;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+
+      .demo-container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .demo-section {
+        margin-bottom: 30px;
+      }
+
+      .demo-section h2 {
+        color: #333;
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+
+      .demo-section custom-badge {
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    </style>
+  </body>
+</html>

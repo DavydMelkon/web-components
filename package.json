@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@linode/design-language-system": "^4.2.1"
+  }
+}
