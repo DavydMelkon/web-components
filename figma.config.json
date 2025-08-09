@@ -1,0 +1,9 @@
+{
+  "codeConnect": {
+    "parser": "html",
+    "label": "Web Components",
+    "include": ["*.figma.ts"],
+    "exclude": ["node_modules"],
+    "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/eDLFcyA8cJgfULbN7qMIYA/-Test--Figma-library---badge?node-id=0-1&t=Qy5LM8AcLIFFsPzs-1"
+  }
+}
