@@ -17,6 +17,16 @@ custom-badge {
 }
 
 /* Color variants */
+custom-badge[variant="info"] [type="subtle"] {
+  background-color: var(--token-component-badge-informative-subtle-background);
+  color: var(--token-component-badge-informative-subtle-text);
+}
+
+custom-badge[variant="info"] [type="accent"] {
+  background-color: var(--token-component-badge-informative-accent-background);
+  color: var(--token-component-badge-informative-accent-text);
+}
+
 custom-badge[variant="info-subtle"] {
   background-color: var(--token-component-badge-informative-subtle-background);
   color: var(--token-component-badge-informative-subtle-text);
